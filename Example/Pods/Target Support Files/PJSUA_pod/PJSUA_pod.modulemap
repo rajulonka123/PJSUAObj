@@ -1,0 +1,6 @@
+framework module PJSUA_pod {
+  umbrella header "PJSUA_pod-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'PJSUA_pod_Example' do
+  pod 'PJSUA_pod', :path => '../'
+
+  target 'PJSUA_pod_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
