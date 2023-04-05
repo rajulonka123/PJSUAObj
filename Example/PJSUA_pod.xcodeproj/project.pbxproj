@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		39B9108429DD5B3700571072 /* ios in Resources */ = {isa = PBXBuildFile; fileRef = 39B9108329DD5B3700571072 /* ios */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -41,7 +40,6 @@
 		06E290A847E0E03D6C7102BD /* PJSUA_pod.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = PJSUA_pod.podspec; path = ../PJSUA_pod.podspec; sourceTree = "<group>"; };
 		11789DC861FD15BD4A8253F6 /* Pods_PJSUA_pod_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PJSUA_pod_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		21D092D243546BF15DA2DE62 /* Pods-PJSUA_pod_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PJSUA_pod_Tests.debug.xcconfig"; path = "Target Support Files/Pods-PJSUA_pod_Tests/Pods-PJSUA_pod_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		39B9108329DD5B3700571072 /* ios */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ios; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* PJSUA_pod_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PJSUA_pod_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -140,7 +138,6 @@
 				6003F5A5195388D20070C39A /* TESTViewController.h */,
 				6003F5A6195388D20070C39A /* TESTViewController.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
-				39B9108329DD5B3700571072 /* ios */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
 			);
@@ -287,7 +284,6 @@
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
-				39B9108429DD5B3700571072 /* ios in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

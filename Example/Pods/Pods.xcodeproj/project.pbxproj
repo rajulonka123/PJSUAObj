@@ -9,6 +9,18 @@
 /* Begin PBXBuildFile section */
 		0CA2A74CD542351AAF5D6E914FB38E1E /* PJSUA_pod-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AA8B7F0370FA2ED508808C0E5B5D5CA /* PJSUA_pod-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2B4DFB05C20CB00CFF2E8976763A5490 /* Pods-PJSUA_pod_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A24DE610D4CC3D5E5030E8E1C0AA984 /* Pods-PJSUA_pod_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		39B9108929DD60F500571072 /* wrapper.mm in Sources */ = {isa = PBXBuildFile; fileRef = 39B9108529DD60F500571072 /* wrapper.mm */; };
+		39B9108A29DD60F500571072 /* wrapper.mm in Sources */ = {isa = PBXBuildFile; fileRef = 39B9108529DD60F500571072 /* wrapper.mm */; };
+		39B9108B29DD60F500571072 /* wrapper.mm in Sources */ = {isa = PBXBuildFile; fileRef = 39B9108529DD60F500571072 /* wrapper.mm */; };
+		39B9108C29DD60F500571072 /* CustomPJSUA2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 39B9108629DD60F500571072 /* CustomPJSUA2.cpp */; };
+		39B9108D29DD60F500571072 /* CustomPJSUA2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 39B9108629DD60F500571072 /* CustomPJSUA2.cpp */; };
+		39B9108E29DD60F500571072 /* CustomPJSUA2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 39B9108629DD60F500571072 /* CustomPJSUA2.cpp */; };
+		39B9108F29DD60F500571072 /* CustomPJSUA2.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 39B9108729DD60F500571072 /* CustomPJSUA2.hpp */; };
+		39B9109029DD60F500571072 /* CustomPJSUA2.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 39B9108729DD60F500571072 /* CustomPJSUA2.hpp */; };
+		39B9109129DD60F500571072 /* CustomPJSUA2.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 39B9108729DD60F500571072 /* CustomPJSUA2.hpp */; };
+		39B9109229DD60F500571072 /* wrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = 39B9108829DD60F500571072 /* wrapper.h */; };
+		39B9109329DD60F500571072 /* wrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = 39B9108829DD60F500571072 /* wrapper.h */; };
+		39B9109429DD60F500571072 /* wrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = 39B9108829DD60F500571072 /* wrapper.h */; };
 		4003C893860EB7DFE6DA8A9AA16D6BBC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		77F565C0469EA017A3ADA38B75F677BA /* PJSUA_pod-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6481C29B07C42F1AF54E1319639B5460 /* PJSUA_pod-dummy.m */; };
 		894D19D8048805422DB7887DD8130B6F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
@@ -46,6 +58,10 @@
 		31B42E1828D48B62C7197331248B0D3E /* Pods-PJSUA_pod_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PJSUA_pod_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		38B693C71CAA6CD710302FEF6FA0EBFD /* Pods-PJSUA_pod_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-PJSUA_pod_Example"; path = Pods_PJSUA_pod_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		396AD196E67C4EBBF57EEA8EADEAFCF9 /* Pods-PJSUA_pod_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PJSUA_pod_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		39B9108529DD60F500571072 /* wrapper.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = wrapper.mm; sourceTree = "<group>"; };
+		39B9108629DD60F500571072 /* CustomPJSUA2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CustomPJSUA2.cpp; sourceTree = "<group>"; };
+		39B9108729DD60F500571072 /* CustomPJSUA2.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = CustomPJSUA2.hpp; sourceTree = "<group>"; };
+		39B9108829DD60F500571072 /* wrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wrapper.h; sourceTree = "<group>"; };
 		4AA8B7F0370FA2ED508808C0E5B5D5CA /* PJSUA_pod-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PJSUA_pod-umbrella.h"; sourceTree = "<group>"; };
 		53B69E82A87E70448C950A0E3F55E941 /* Pods-PJSUA_pod_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PJSUA_pod_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		540A0649EFB7FE1AE0F1CCDF862DEC68 /* Pods-PJSUA_pod_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PJSUA_pod_Tests-Info.plist"; sourceTree = "<group>"; };
@@ -112,6 +128,10 @@
 		45DDC44797D74BE0F565599BEE251789 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
+				39B9108629DD60F500571072 /* CustomPJSUA2.cpp */,
+				39B9108729DD60F500571072 /* CustomPJSUA2.hpp */,
+				39B9108829DD60F500571072 /* wrapper.h */,
+				39B9108529DD60F500571072 /* wrapper.mm */,
 				118B00B818405FFFC9F15F96FF3C8DB4 /* PJSUA_pod.modulemap */,
 				6481C29B07C42F1AF54E1319639B5460 /* PJSUA_pod-dummy.m */,
 				66A28524A79BB213BB69BF3B381A098F /* PJSUA_pod-Info.plist */,
@@ -230,6 +250,8 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				39B9108F29DD60F500571072 /* CustomPJSUA2.hpp in Headers */,
+				39B9109229DD60F500571072 /* wrapper.h in Headers */,
 				0CA2A74CD542351AAF5D6E914FB38E1E /* PJSUA_pod-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -238,6 +260,8 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				39B9109129DD60F500571072 /* CustomPJSUA2.hpp in Headers */,
+				39B9109429DD60F500571072 /* wrapper.h in Headers */,
 				9E56F5F77935F5758428235B24DD2D49 /* Pods-PJSUA_pod_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -246,6 +270,8 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				39B9109029DD60F500571072 /* CustomPJSUA2.hpp in Headers */,
+				39B9109329DD60F500571072 /* wrapper.h in Headers */,
 				2B4DFB05C20CB00CFF2E8976763A5490 /* Pods-PJSUA_pod_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -368,6 +394,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				965D700ECFAC133A0C7105EEAB5E1A03 /* Pods-PJSUA_pod_Tests-dummy.m in Sources */,
+				39B9108E29DD60F500571072 /* CustomPJSUA2.cpp in Sources */,
+				39B9108B29DD60F500571072 /* wrapper.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -376,6 +404,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				FB8AD5E2179A39358B15919B0125BCF4 /* Pods-PJSUA_pod_Example-dummy.m in Sources */,
+				39B9108D29DD60F500571072 /* CustomPJSUA2.cpp in Sources */,
+				39B9108A29DD60F500571072 /* wrapper.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -383,6 +413,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				39B9108929DD60F500571072 /* wrapper.mm in Sources */,
+				39B9108C29DD60F500571072 /* CustomPJSUA2.cpp in Sources */,
 				77F565C0469EA017A3ADA38B75F677BA /* PJSUA_pod-dummy.m in Sources */,
 				BB8C7D3E36C68F82D8C87F7F073553A2 /* ReplaceMe.m in Sources */,
 			);
